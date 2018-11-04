@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+     #parennt{
+        position:relative;
+        top: 100px;
+        left: 100px;
+    } 
+     #Static{
+        position: static
+    }
+    #Relative{
+        position: relative;
+        top: 100px;
+        left: 100px;
+    }
+    #Absloute{
+        position: absolute;
+        top: 100px;
+        left: 100px;
+    }
+   #Fixed{
+        position: fixed;
+        top: 50px;
+        left: 100px;
+    }
+    p{
+        overflow: auto;
+        position: relative;
+        top: 100px;
+        left: 100px;
+        width: 100px;
+    } 
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <h1 id="top">顶部</h1>
+        <h1 id="Static"> Static</h1>
+        <h2 id="Relative">Relative</h2>
+        <h3 id="Absloute">Absloute</h3>
+        <h4 id="Fixed">Fixed</h4>
+        <p>overflowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww</p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <ol>有序
+            <li style="list-style-type:lower-alpha">列表</li>
+            <li style="list-style-type:lower-alpha">列表</li>
+        </ol>
+        <hr>
+        <ul>无序
+            <li style="border:1px solid black; list-style:square; list-style-position: inside">列表</li>
+            <li style="border:1px solid black">列表</li>
+        </ul>
+        <hr>
+        <dl>
+        <dt>名字</dt>
+            <dd>解释</dd>
+<dd>解释</dd>
+    </dl>
+    <hr>
+    <div style="height:50px">高度div
+         <a href="http://www.aibiancheng.xyz" target="_blank">我爱编程网</a></div>
+   
+    <hr>
+    
+    <a style="position:fixed;bottom: 10px;" href="#top">回到顶部</a>
+    </div>
+    <div id="input" >
+        <form>
+            <input type="text" class="left"/>
+            <input type="button"  value="确定"/>
+        </form>
+
+        <form method="GET" action="http://www.aibiancheng.xyz/upload">
+        <label><input type="radio" name="sex">男</label>
+        <label><input type="radio" name="sex">女</label>
+        
+        </div>
+        <div style="height:200px;">
+        <input type="file" name="file" value="选择文件"/><input type="submit" name="go" value="提交"/><div>
+        
+            学历:<br/>
+        <select >
+            <option value="-请选择-">-请选择-</option>
+            <option value="本科">本科</option>
+            <option value="大专">大专</option>
+            <option value="中学">中学</option>
+            <option value="小学">小学</option>
+        </select>
+    </form>
+    </div>
+    </div>
+    
+</body>
+</html>
